@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+database:
+  host: localhost
+  port: 3306
+  user: root
+  password: 54862
+  dbname: nft_auction
+
+blockchain:
+  rpc_url: "https://sepolia.infura.io/v3/fe441105f0ae45279c6fa9044aac217d"
+  ws_url: "wss://sepolia.infura.io/ws/v3/fe441105f0ae45279c6fa9044aac217d"
+  contract_address: "0x5b73C5498c1E3b4dbA84de0F1833c4a029d90519"
+  chain_id: 11155111
